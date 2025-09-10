@@ -1,0 +1,262 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.lovable{
+  position: fixed;
+  right: 2%;
+  bottom: 2%;
+  box-sizing: border-box;
+  width: 45%;
+  height: 6%;
+}
+nav{
+  padding: 3% 3% 2% 5%;
+}
+.navDiv{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navLeftmostImageDiv{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.image1{
+  width: 35%;
+  height: 35%;
+}
+.navRightmostImageDiv{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 12%;
+}
+.lightImage2{
+  width: 10%;
+  height: 10%;
+}
+.userImage3{
+  width: 24%;
+  height: 24%;
+}
+hr{
+  width: 100%;
+  border: none;
+  border-top: 0.1rem solid gray;
+}
+.trophySection{
+  background-color: #edeef0;
+  text-align: center;
+  border: 0.1rem solid #dbdcdf;
+  padding: 3% 11%;
+  border-radius: 4%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.toWin{
+  margin-bottom: 5%;
+  font-size: 1.1rem;
+}
+.trophyImage4{
+  width: 17%;
+  height: 17%;
+}
+.draw{
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 4%;
+}
+.justifyTwo35{
+  display: flex;
+  justify-content: center;
+}
+.currentPool{
+  background-color: #dadcdf;
+  border-radius: 1.3rem;
+  display: inline;
+  padding: 5%;
+  margin: 4%;
+  margin-top: 4%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 68%;
+}
+.two35{
+  font-weight: bold;
+  font-size: larger;
+}
+.pool{
+  font-size: small;
+}
+.timeDiv{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4%;
+  margin-bottom: 5%;
+}
+.numbers{
+  font-weight: bold;
+  font-size: larger;
+}
+.time{
+  font-size: small;
+}
+.ticketSection{
+  background-color: #fafafa;
+  border: 0.1rem solid #dbdcdf;
+  border-radius: 4%;
+  padding: 4%;
+  margin: 7% 2%;
+}
+.ticketImage{
+  width: 6%;
+  height: 6%;
+}
+.purchaseTicket{
+  display: inline;
+  margin-left: 2%;
+}
+.ticketDiv{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 3%;
+}
+.removeTicket{
+  width: 10vw;
+  height: 6vh;
+  border-radius: 19%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.1rem solid #dbdcdf;
+}
+.noTickets{
+  width: 25vw;
+  height: 8vh;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.1rem solid #dbdcdf;
+}
+.addTicket{
+  width: 10vw;
+  height: 6vh;
+  border-radius: 19%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.1rem solid #dbdcdf;
+}
+.priceDiv{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.price{
+  font-weight: bold;
+}
+.ticketButton{
+  background-color: #1e2c47;
+  width: 100%;
+  padding: 4%;
+  border-radius: 0.5rem;
+  color: white;
+}
+.charity{
+  text-align: center;
+  font-size: small;
+}
+.statisticsSection{
+  background-color: #fafafa;
+  border: 0.1rem solid #dbdcdf;
+  border-radius: 4%;
+  padding: 4%;
+  margin: 7% 2%;
+}
+.statisticsImage{
+  width: 6%;
+  height: 6%;
+}
+.raffleStatistics{
+  display: inline;
+  margin-left: 2%;
+}
+.ticketsSold{
+  
+}
+.four7{
+  display: inline;
+  width: 8%;
+  height: 6%;
+  border-radius: 30%;
+  padding: 2%;
+  color: white;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.three{
+  width: 8%;
+  height: 6%;
+  border-radius: 30%;
+  padding: 2%;
+  color: white;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.two35k{
+  font-weight: bold;
+}
+hr{
+  border: none;
+  border-top: 0.1rem solid #dbdcdf;
+}
+.ourRaffle{
+  text-align: center;
+  font-weight: bold;
+}
+.ourRaffleDiv{
+  margin-bottom: 2.5%;
+}
+.trophy2{
+  width: 4%;
+  height: 4%;
+  margin-right: 2%;
+}
+.shield{
+  width: 4%;
+  height: 4%;
+  margin-right: 2%;
+}
+.heart1{
+  width: 4%;
+  height: 4%;
+  margin-right: 2%;
+}
+.lastSection{
+  background-color: #fafafa;
+  border: 0.1rem solid #dbdcdf;
+  border-radius: 4%;
+  padding: 4%;
+  margin: 7% 2% 2%;
+}
+.lastDiv{
+  text-align: center;
+}
+.lastImages{
+  width: 17%;
+  height: 17%;
+  margin-bottom: 1%;
+}
+.belowImageDiv{
+  font-weight: bold;
+}
