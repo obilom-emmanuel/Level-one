@@ -1,0 +1,261 @@
+body{
+  background-color: #1f1313;
+  margin: 0;
+}
+.firstImage{
+  width: 4rem;
+  height: 3rem;
+}
+.slash{
+  height: 0.2rem;
+  width: 1.1rem;
+  background-color: white;
+}
+div{
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+nav{
+  background-color: #1f1313;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  padding-right: 1.3rem;
+  padding-top: 0.4rem;
+}
+section{
+  padding: 6rem 0.5rem 0rem;
+  color: white;
+}
+.topmostHeader{
+  margin: 0rem;
+}
+.firstP{
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+}
+ul{
+  list-style-type: none;
+}
+.lastNav > *{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 0.4rem;
+  margin-left: -2rem;
+}
+li{
+  text-decoration: none;
+  font-size: 0.6rem;
+}
+.lowerNavAnchor:hover{
+  color: black;
+}
+.lowerNavLast:hover{
+  color: gold;
+}
+.lowerNavAnchor1{
+  background-color: gold;
+  color: black;
+}
+.lowerNavAnchor{
+  text-decoration: none;
+  color: white;
+}
+.lowerNavAnchor:hover{
+  background-color: gold;
+  color: black;
+  cursor: pointer;
+}
+.lowerNavLast{
+  color: white;
+  font-size: 0.6rem;
+}
+button{
+  background-color: #1f1313;
+  border: 0.1rem solid gray;
+  padding: 0.3rem;
+  border-radius: 0.9rem;
+}
+.upcoming{
+  margin-top: 0.3rem;
+  margin-bottom: 0;
+}
+.upcoming:hover{
+  color: gold;
+  border: 0.1rem solid gray;
+}
+.pAll{
+  font-size: 0.6rem;
+  margin-top: 0.2rem;
+}
+.pSecond{
+  font-size: 0.6rem;
+}
+.name{
+  color: gold;
+}
+.pLast{
+  font-size: 0.6rem;
+  margin-bottom: 2rem;
+}
+.signUp{
+  background-color: #2f1313;
+  padding-top: 0.3rem;
+  padding-bottom: 0.7rem;
+}
+.toReceive{
+  margin-bottom: 0;
+}
+.fromThoughtbot{
+  margin-top: 0;
+  margin-bottom: 0.4rem;
+}
+.emailAddress{
+  font-size: 0.5rem;
+}
+#email{
+  background-color: #1f1313;
+}
+.subscribe{
+  background-color: red;
+  color: white;
+}
+.emailButton{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+.emailButton > *{
+  flex: 1;
+}
+.looking{
+  font-size: 0.6rem;
+}
+.checkOut{
+  font-size: 0.6rem;
+  color: gold;
+}
+.lookCheck{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.secondHr{
+  margin-bottom: 2rem;
+  border: 0.1rem solid gray;
+}
+.num1{
+  font-size: 0.6rem;
+  color: gold;
+}
+.line1{
+  text-decoration: none;
+}
+.num{
+  font-size: 0.6rem;
+  color: white;
+}
+.num:hover{
+  border: 0.1rem solid gold;
+  color: gold;
+  padding: 0.1rem;
+}
+.line{
+  text-decoration-color: white;
+}
+.line:hover{
+  text-decoration: none;
+}
+.rest{
+  font-size: 0.6rem;
+  color: white;
+}
+.rest:hover{
+  color: gold;
+  border: 0.1rem solid gold;
+  padding: 0.1rem;
+}
+.lineRest{
+  text-decoration-color: white;
+}
+.lineRest:hover{
+  text-decoration-color: gold;
+}
+.numbers{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+hr{
+  border: 0.1rem solid gray;
+  opacity: 0.4;
+}
+.lastImage{
+  width: 1rem;
+  height: 1rem;
+}
+.lastLine{
+  text-decoration-color: white;
+}
+.services{
+  color: white;
+  font-size: 0.6rem;
+}
+.talk{
+  text-decoration-color: gold;
+}
+.letsTalk{
+  color: gold;
+  font-size: 0.6rem;
+}
+.services:hover{
+  color: gold;
+}
+.lastLine:hover{
+  text-decoration: none;
+}
+.servicesDiv{
+  display: flex;
+  /*justify-content: right;*/
+  flex-direction: row;
+  gap: 0.5rem;
+}
+.imageThoughtbot{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-top: -6.4rem;
+}
+.thoughtbotServices{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.inc{
+  display: block;
+}
+.endP{
+  font-size: 0.5rem;
+  color: darkgray;
+}
+.lastDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.lastDiv > *{
+  flex: 1;
+}
+
