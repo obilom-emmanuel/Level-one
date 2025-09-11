@@ -1,0 +1,80 @@
+body{
+	font-family: Arial, sans-serif;
+	background-color: white;
+}
+.topest{
+	background-color: lightgray;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 0.1rem solid gray;
+	border-bottom: none;
+	padding: 0.2rem;
+}
+.https{
+	background-color: white;
+	border: 0.1rem solid gray;
+	flex: 1;
+	margin: 0.2rem 0.5rem;
+	padding:0.2rem;
+	border-radius: 0.3rem;
+}
+.firstSection{
+	background-color: floralwhite;
+	margin: 1.5rem;
+	border-radius: 0.4rem;
+	border: 1px solid gray;
+}
+.topBullet{
+	width: 0.4rem;
+	height: 0.4rem;
+	border-radius: 50%;
+	display: inline-block;
+}
+.threeDots{
+	background-color: gray;
+	width: 0.2rem;
+	height: 0.2rem;
+	border-radius: 50%;
+	margin: 0.1rem;
+}
+button{
+	background-color: white;
+	font-size: 0.6rem;
+	border: 0.1rem solid gray;
+	padding: 0.5rem;
+}
+.divList{
+	display: flex;
+	align-items: center;
+	gap: 1.2rem;
+	font-size: 0.5rem;
+}
+.navStart{
+	display: flex;
+	align-items: center;
+	justify-content: left;
+}
+.navEnd{
+	display: flex;
+	align-items: center;
+	justify-content: right;
+	gap: 4.4rem;
+}
+.nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.4rem;
+	border-bottom: 0.1rem solid gray;
+}
+.innerBody{
+	padding: 4rem 10rem 0.5rem 10rem;
+}
+.image{
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	display: block;
+	box-sizing: border-box;
+}

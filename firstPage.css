@@ -1,0 +1,67 @@
+body{
+	background-color: white;
+	font-family: Arial, sans-serif;
+}
+.navList{
+	display: flex;
+	justify-content: space-between;
+	padding: 1.2rem 4.5rem 0rem 0.7rem;
+	font-size: 1.2rem;
+}
+.headerSection{
+	height: 100vh;
+	background-color: white;
+	padding: 0rem 4rem;
+
+}
+.profileHeader{
+	font-size: 5rem;
+	font-family: Bogle;
+	margin: 2.3rem 2.5rem 0rem;
+}
+.walmartColor{
+	color: orange;
+}
+.connect{
+	font-size: 1.3rem;
+	margin-top: 3rem;
+	margin-left: 2.5rem;
+}
+.slideReveal{
+	margin: 9rem 12rem 1rem;
+}
+.selectedWorks{
+	font-size: 2rem;
+	text-align: center;
+	margin-bottom: 7rem;
+}
+.walmartDiv{
+	font-family: Bogle;
+	background-color: dodgerblue;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 25rem;
+	font-size: 5rem;
+	cursor: pointer;
+}
+.walmartDiv:hover{
+	background-color: orange;
+}
+.capsule{
+	background-color: blue;
+	width: 100%;
+	height: 25rem;
+	font-size: 5rem;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 7.5rem;
+	cursor: pointer;
+}
+.capsule:hover{
+	background-color: orange;
+}
