@@ -92,6 +92,7 @@ label{
 }
 .messageDiv{
 	width: 100%;
+	box-sizing: border-box;
 	height: 10rem;
 }
 .formSubmitButton{
@@ -143,4 +144,5 @@ label{
 	box-sizing: border-box;
 	width: 100%;
 	padding: 0;
+
 }
