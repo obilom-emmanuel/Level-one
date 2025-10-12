@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="NovaCard.css">
+  <link rel="stylesheet" href="/Download/fontawesome-free-7.0.1-web/fontawesome-free-7.0.1-web/css/all.min.css">
+  <link rel="stylesheet" href="/storage/emulated/0/fontawesome-icon-7.0.1/css/all.min.css">
+  <link rel="stylesheet" href="/storage/emulated/0/fontawesome-icon-7.0.1/css/solid.min.css">
+  <title>Nova Site Clone</title>
+</head>
+<body>
+  <div class="nav-container">
+  <nav id="nav">
+    <a href="virtualProject.html"><img src="./Download/logo-1759812367429.ico" class="nav-nova-image"></a>
+    <ul id="menu">
+      <li onclick="toggleFeatures()" id="sub-list">Features <i class="fa-solid fa-caret-down"></i>
+        <div id="featuresJS" class="">
+          <a href="Nova Card.html"><p><i class="fa-solid fa-credit-card"></i>Nova Card</p></a>
+          <a href="pageNotFound.html"><p><i class="fa-solid fa-wallet"></i>Spend</p></a>
+          <a href="pageNotFound.html"><p><i class="fa-solid fa-piggy-bank"></i>Save</p></a>
+          <a href="pageNotFound.html"><p><i class="fa-solid fa-money-bill-transfer"></i>Budget</p></a>
+          <a href="pageNotFound.html"><p><i class="fa-solid fa-dollar-sign"></i>Borrow</p></a>
+        </div>
+       </li>
+      
+      <li>Business<button class="beta">Beta</button></li>
+      
+      <li onclick="toggleCompany()" id="sub-list">Company <i class="fa-solid fa-caret-down"></i>
+        <div id="companyList">
+          <a href="pageNotFound.html"><p>Blog</p></a>
+          <a href="pageNotFound.html"><p>Press</p></a>
+          <a href="pageNotFound.html"><p>Join our team</p></a>
+          <a href="pageNotFound.html"><p>About us</p></a>
+        </div>
+      </li>
+      <li onclick="toggleHelp()" id="sub-list">Help <i class="fa-solid fa-caret-down"></i>
+        <div id="helpList">
+          <a href="pageNotFound.html"><p>Het Help</p></a>
+          <a href="pageNotFound.html"><p>FAQs</p></a>
+          <a href="pageNotFound.html"><p>Security</p></a>
+          <a href="pageNotFound.html"><p>Contact us</p></a>
+        </div>
+      </li>
+      <a href="signIn.html"><li>Sign In</li></a>
+      <a href="GetNovaButton.html"><button class="getNovaButton">Get Nova</button></a>
+      <img onclick="toggleFlag()" src="./Pictures/Screenshots/Nigeria-flag.jpg" class="nigeria-flag">
+      <img  id="flag" src="./Download/flag-content.png">
+    </ul>
+    
+    <div onclick="toggleMenu()" id="hamburger-div"><i class="fa-solid fa-bars bars"></i></div>
+  </nav>
+  </div>
+  <div class="body-div">
+    <div>
+      <h1>The money app for everyone</h1>
+      <p>Save, spend, send and invest money across borders.</p>
+      <a href="GetNovaButton.html"><button class="get-nova">Get Nova</button></a>
+    </div>
+    <div>
+      <img src="./Download/wallet.gif" class="body-image">
+    </div>
+  </div>
+  
+  <div class="body-div">
+    <div>
+      <h1>Save</h1>
+      <p>Putting money away for the future is smart but it takes discipline - something humans don’t have in abundance. We’re using technology to solve that by automating saving. You set an amount to save and the Novaa app takes care of the rest, prompt interest payout included.</p>
+    </div>
+    <div id="last2-body-div">
+      <img src="./Download/saving-money.gif" class="body-image">
+    </div>
+  </div>
+  
+  <div class="body-div">
+    <div id="last2-body-div">
+      <img src="./Download/make-it-rain.gif" class="body-image">
+    </div>
+    <div>
+      <h1>Spend</h1>
+      <p>Nova gives you more than one way to pay easily, including a widely accepted debit card issued in partnership with Visa, quick web payments direct from your Kuda account, and location-based gift cards for shopping and subscriptions.</p>
+    </div>
+  </div>
+  
+  <script>
+  function toggleMenu(){
+    document.getElementById("menu").classList.toggle("show");
+  }
+  function toggleFeatures(){
+    document.getElementById("featuresJS").classList.toggle("features2JS");
+  }
+  function toggleCompany(){
+    document.getElementById("companyList").classList.toggle("companyList");
+  }
+  function toggleHelp(){
+    document.getElementById("helpList").classList.toggle("helpList");
+  }
+  function toggleFlag(){
+ document.getElementById("flag").classList.toggle("show-flag");
+  }
+  </script>
+</body>
+</html>

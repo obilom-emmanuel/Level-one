@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="GetNovaButton.css">
+  <link rel="stylesheet" href="/Download/fontawesome-free-7.0.1-web/fontawesome-free-7.0.1-web/css/all.min.css">
+  <link rel="stylesheet" href="/storage/emulated/0/fontawesome-icon-7.0.1/css/all.min.css">
+  <link rel="stylesheet" href="/storage/emulated/0/fontawesome-icon-7.0.1/css/solid.min.css">
+  <title>Get Nova</title>
+</head>
+<body>
+  <div class="nav-container">
+  <nav id="nav">
+    <a href="virtualProject.html"><img src="./Download/logo-1759812367429.ico" class="nav-nova-image"></a>
+    <ul id="menu">
+      <li onclick="toggleFeatures()" id="sub-list">Features <i class="fa-solid fa-caret-down"></i>
+        <div id="featuresJS" class="">
+          <a href="Nova Card.html"><p><i class="fa-solid fa-credit-card"></i>Nova Card</p></a>
+          <a href="pageNotFound.html"><p><i class="fa-solid fa-wallet"></i>Spend</p></a>
+          <a href="pageNotFound.html"><p><i class="fa-solid fa-piggy-bank"></i>Save</p></a>
+          <a href="pageNotFound.html"><p><i class="fa-solid fa-money-bill-transfer"></i>Budget</p></a>
+          <a href="pageNotFound.html"><p><i class="fa-solid fa-dollar-sign"></i>Borrow</p></a>
+        </div>
+       </li>
+      
+      <li>Business<button class="beta">Beta</button></li>
+      
+      <li onclick="toggleCompany()" id="sub-list">Company <i class="fa-solid fa-caret-down"></i>
+        <div id="companyList">
+          <a href="pageNotFound.html"><p>Blog</p></a>
+          <a href="pageNotFound.html"><p>Press</p></a>
+          <a href="pageNotFound.html"><p>Join our team</p></a>
+          <a href="pageNotFound.html"><p>About us</p></a>
+        </div>
+      </li>
+      <li onclick="toggleHelp()" id="sub-list">Help <i class="fa-solid fa-caret-down"></i>
+        <div id="helpList">
+          <a href="pageNotFound.html"><p>Het Help</p></a>
+          <a href="pageNotFound.html"><p>FAQs</p></a>
+          <a href="pageNotFound.html"><p>Security</p></a>
+          <a href="pageNotFound.html"><p>Contact us</p></a>
+        </div>
+      </li>
+      <a href="signIn.html"><li>Sign In</li></a>
+      <a href="GetNovaButton.html"><button class="getNovaButton">Get Nova</button></a>
+      <img onclick="toggleFlag()" src="./Pictures/Screenshots/Nigeria-flag.jpg" class="nigeria-flag">
+      <img  id="flag" src="./Download/flag-content.png">
+    </ul>
+    
+    <div onclick="toggleMenu()" id="hamburger-div"><i class="fa-solid fa-bars bars"></i></div>
+  </nav>
+  </div>
+<div class="body-div">
+<div>
+  <div class="confirm">
+    <div>Please, check your browser’s address bar to be sure you’re on</div>
+    <a>https://app.novabank.com</a>
+  </div>
+  
+  <div class="sign-up-div">
+    <h3>Get a <span class="nova-text">Nova</span> account now</h3>
+    <div class="signing">
+    <p>To sign up, please type in a valid email address</p>
+    <form>
+      <label for="fullName">Full Name:</label>
+      <input type="text" name="fullName" id="fullName" placeholder="firstname lastname" required>
+      
+      <label for="phone">Phone Number:</label>
+      <input type="number" name="phone" id="phone" placeholder="enter phone number" required="">
+      
+      <label for="email">Email Address:</label>
+      <input type="email" name="email" id="email" placeholder="example@gmail.com" required="">
+      
+      <label for="password" class="password">Password:
+        <i class="fa-solid fa-circle five-dots"></i>
+        <input type="password" name="password" id="password" placeholder="" required="">
+      </label>
+    </form>
+    <p>Forgot password? <span class="reset-password">Reset it</span></p>
+    <p>Already have an account? Sign in <span class="sign-in-here">here</span></p>
+    <button>Create Account</button>
+    </div>
+  </div>
+</div>
+<img src="./Pictures/Screenshots/mobile-nova.jpg" class="e-wallet">
+</div>
+  <script>
+  function toggleMenu(){
+    document.getElementById("menu").classList.toggle("show");
+  }
+  function toggleFeatures(){
+    document.getElementById("featuresJS").classList.toggle("features2JS");
+  }
+  function toggleCompany(){
+    document.getElementById("companyList").classList.toggle("companyList");
+  }
+  function toggleHelp(){
+    document.getElementById("helpList").classList.toggle("helpList");
+  }
+  function toggleFlag(){
+ document.getElementById("flag").classList.toggle("show-flag");
+  }
+  </script>
+</body>
+</html>

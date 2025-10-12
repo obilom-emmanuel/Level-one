@@ -1,0 +1,325 @@
+body{
+  margin: 0;
+  padding: 0;
+  padding-top: 2.7rem;
+  background-color: #ffffff;
+}
+.nav-container{
+  position: relative;
+}
+nav{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding: 0.9rem;
+  background-color: white;
+  display: flex;
+  
+  align-items: center;
+  box-sizing: border-box;
+  box-shadow: 0 0.1px 0.5rem rgba(0, 0, 0, 0.2);
+  z-index: 50;
+}
+nav img{
+  width: auto;
+  height: 1.5rem;
+}
+.fa-bars{
+  font-size: 2rem;
+  font-weight: ;
+  border: 1px solid darkgray;
+  border-radius: 0.3rem;
+  padding: 0.2rem 0.4rem;
+}
+li:hover{
+  color: gray;
+}
+#featuresJS{
+  display: none;
+  flex-direction: column;
+  margin-left: 2rem;
+}
+#featuresJS.features2JS{
+  display: flex;
+}
+#companyList{
+  display: none;
+  flex-direction: column;
+  margin-left: 2rem;
+}
+#companyList.companyList{
+  display: flex;
+}
+#helpList{
+  display: none;
+  flex-direction: column;
+  margin-left: 2rem;
+}
+#helpList.helpList{
+  display: flex;
+}
+nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      
+  background-color: white;
+  color: red;
+  
+    }
+
+    nav ul li {
+      
+      font-weight: bold;
+    }
+.fa-caret-down{
+  font-size: 0.6rem;
+}
+.features p i{
+  font-size: 1.3rem;
+  margin-right: 0.6rem;
+}
+a{
+  text-decoration: none;
+  color: #ff4400;
+}
+.beta{
+  background-color: white;
+  color: #ff4400;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 0.5px solid darkgray;
+  border-radius: 0.3rem;
+  margin-left: 0.2rem;
+}
+.getNovaButton{
+  
+  background-color: #ff4400;
+  color: white;
+  
+  border: none;
+  border-radius: 0.3rem;
+  font-weight: bold;
+  
+  font-size: 1rem;
+}
+#flag{
+  display: none;
+}
+section{
+  
+ /* padding: 1rem;*/
+}
+section h1{
+  font-size: 2.2rem;
+  color: #ff4400;
+  margin-bottom: 0.3rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+.welcome{
+  display: block;
+  margin-top: 0;
+  font-weight: bold;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+.fully-licensed{
+  margin-top: 1.8rem;
+  font-size: 0.7rem;
+  display: flex;
+  
+  align-items: center;
+  color: darkgray;
+}
+.cbn-logo{
+  width: 1.8rem;
+  height: 1.3rem;
+}
+.get-nova{
+  background-color: #ff4400;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+.wallet-div{
+  overflow-x: hidden;
+}
+.e-wallet{
+  width: 70%;
+  height: 45vh;
+  margin-top: 1.5rem;
+  box-sizing: border-box;
+  animation: wallet 2s ease-out 0s forwards;
+}
+@keyframes wallet{
+  from{
+    transform: translateX(270px);
+  }
+  to{
+    transform: translateX(0px);
+  }
+}
+.icons-div{
+  text-align: left;
+  color: #ff4400;
+  box-shadow: 0 0 0.5rem rgba(0,0,0,0.2);
+  
+  padding: 1.5rem 1rem 0.5rem;
+  border-radius: 0.4rem;
+  font-weight: bold;
+}
+
+@media (max-width: 600px){
+  nav{
+    justify-content: space-between;
+  }
+  nav ul{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0.1rem 0.2rem rgba(0,0,0,0.2);
+  }
+  #menu{
+  flex-direction: column;
+  display: none;
+}
+  #menu.show{
+  display: flex;
+}
+  nav ul li {
+      margin: 0.5rem 15px;
+  }
+  .getNovaButton{
+    margin: 0 15px 1.5rem;
+    padding: 0.7rem 1.2rem;
+  }
+  .nigeria-flag{
+    display: none;
+  }
+  section{
+    text-align: center;
+  }
+  .fully-licensed{
+    justify-content: center;
+  }
+  .icons-div{
+    margin: 0 1.5rem 1.3rem;
+  }
+  .site-action{
+  font-size: 1.5rem;
+}
+}
+@media (min-width: 601px){
+  #nav{
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding: 0.7rem 4.5rem;
+    font-size: 0.6rem;
+  }
+  nav ul > :nth-child(4){
+    margin-right: 10rem;
+  }
+  .nav-nova-image{
+    margin-right: 2rem;
+    width: 3.2rem;
+    height: 1rem;
+  }
+  #menu{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  nav ul li {
+      /*margin: 0rem 1rem;*/
+  }
+  #featuresJS{
+    position: absolute;
+    top: 100%;
+    background-color: white;
+  }
+  #featuresJS p{
+    margin: 0.5rem 1.5rem;
+  }
+  #companyList{
+    position: absolute;
+    top: 100%;
+    background-color: white;
+  }
+  #companyList p{
+    margin: 0.5rem 1.5rem;
+  }
+  #helpList{
+    position: absolute;
+    top: 100%;
+    background-color: white;
+  }
+  #helpList p{
+    margin: 0.5rem 1.5rem;
+  }
+  .getNovaButton{
+    font-size: 0.6rem;
+    padding: 0.5rem 0.7rem;
+  }
+  /*.nav-end{
+    display: flex;
+    align-items: center;
+    
+  }*/
+  .nigeria-flag{
+    width: 1.7rem;
+    height: 1.7rem;
+  }
+  #hamburger-div{
+    display: none;
+  }
+  
+  #first-section{
+    display: flex;
+    gap: 6rem;
+    padding: 1rem 8rem;
+    box-sizing: border-box;
+  }
+  .fully-licensed{
+    font-size: 0.6rem;
+    margin-right: 7rem;
+    margin-left: 2rem;
+    box-sizing: border-box;
+  }
+  .e-wallet{
+    width: 15rem;
+    height: 18rem;
+  }
+  .get-nova{
+    margin-left: 2rem;
+  }
+  .second-section{
+    margin-top: 16rem;
+  }
+  .icons-div-container{
+    display: flex;
+    justify-content: center;
+    font-size: 0.6rem;
+    margin: 1rem 6rem;
+  }
+  .site-action{
+  font-size: 1rem;
+}
+  #flag{
+    position: absolute;
+    top: 100%;
+    right: 4rem;
+    width: 19rem;
+    height: 11rem;
+  }
+  #flag.show-flag{
+    display: block;
+  }
+}
+
+
