@@ -137,12 +137,12 @@ hr{
 	text-align: center;
 	margin-top: 0;
 	font-weight: bold;
+	color: white;
 }
 .eachWorkDiv{
 	border: 0.1rem solid white;
 	margin-bottom: 2rem;
 	cursor: pointer;
-	color: white;
 }
 .lastSection{
 	background-color: white;
