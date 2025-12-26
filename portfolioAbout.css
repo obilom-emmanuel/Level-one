@@ -1,0 +1,222 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: white;
+	padding: 0;
+	margin: 0;
+	padding-top: 6rem;
+	font-family: Arial, sans-serif;
+	color: black;
+}
+nav{
+	background-color: blue;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	top: 0;
+}
+.logo{
+	background-color: white;
+	height: 2rem;
+	color: white;
+}
+.siteName{
+	font-size: 2rem;
+	color: white;
+}
+.navDiv{
+	display: flex;
+	align-items: center;
+}
+.navList{
+	font-size: 1.3rem;
+	font-weight: bold;
+	color: white;
+}
+.navList:hover{
+	border: 0.1rem solid white;
+	padding: 1rem 2rem;
+}
+a{
+	text-decoration: none;
+}
+.freeConsultation{
+	background-color: #010dff;
+	font-size: 1.3rem;
+	font-weight: bold;
+	color: white;
+	padding: 1rem 2rem;
+}
+.freeConsultation:hover{
+	background-color: gray;
+}
+hr{
+	border: none;
+	border-top: 1px solid white;
+}
+.ourWorkSection{
+	padding: 3rem;
+}
+.someOfOurWork{
+	text-align: center;
+}
+.ourWorkImage{
+	height: 23rem;
+	width: 100%;
+	margin-bottom: 0;
+}
+.ourWorkDiv > *{
+	flex: 1;
+}
+.belowImageDiv{
+	background-color: #010dff; 
+	text-align: center;
+	height: 7rem;
+	margin-top: 0;
+	padding-top: 3rem;
+	font-size: 1.8rem;
+	font-weight: bold;
+}
+.eachWorkDiv{
+	border: 0.1rem solid black;
+	margin-bottom: 2rem;
+	cursor: pointer;
+}
+.lastSection{
+	background-color: black;
+	color: white;
+	padding: 3rem;
+	
+}
+.siteNameSecond{
+	font-size: 2rem;
+	font-weight: bold;
+}
+.quickLinks div{
+	color: gray;
+	margin-bottom: 0.7rem;
+}
+.emailSecond{
+	padding: 0.8rem;
+}
+.forEmail{
+	font-weight: bold;
+}
+.lastButton{
+	background-color: #010dff;
+	color: white;
+	padding: 0.8rem;
+	box-sizing: border-box;
+}
+.emailDiv{
+	border: 0.1rem solid white;
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+
+
+
+
+
+@media (min-width: 501px){
+	nav{
+		background-color: black;
+		width: 100%;
+	    padding: 0.5rem 2rem;
+	}
+	.navMenu{
+	display: flex;
+	align-items: center;
+	list-style: none;
+	gap: 3rem;
+}
+#hamburger{
+		display: none;
+	}
+	#toggleMenu{
+		display: none;
+	}
+	.someOfOurWork{
+	font-size: 4rem;
+}
+.ourWorkDiv{
+	display: flex;
+	flex-direction: row;
+	gap: 2rem;
+}
+.eachWorkDiv{
+	padding: 1rem;
+}
+.lastDiv{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+}
+
+
+
+
+
+
+@media (max-width: 500px){
+	*{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    nav{
+    	z-index: 1000;
+        width: 100%;
+        background-color: blue;
+        padding: 0.5rem 1rem;   /* Reduce padding */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #hamburger{
+        font-size: 2rem;
+        cursor: pointer;
+        display: block;
+        color: white;
+        margin-right: ;
+    }
+    #toggleMenu{
+    	display: none;
+    }
+    .navMenu{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        list-style-type: none;
+        background-color: gold;
+        color: red;
+        z-index: 999;
+        display: none;
+    }
+    .navMenu a li{
+    	margin: 3rem 1.8rem;
+    }
+    #toggleMenu:checked ~ .navMenu{
+    	display: block;
+    }
+	.someOfOurWork{
+	font-size: 2.3rem;
+	margin-bottom: 0.7rem;
+}
+.ourWorkDiv{
+	gap: 1rem;
+}
+.lastDiv{
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+}

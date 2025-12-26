@@ -1,0 +1,375 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: black;
+	padding: 0;
+	margin: 0;
+	padding-top: 6rem;
+	font-family: Arial, sans-serif;
+
+
+}
+nav{
+	background-color: gold;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	top: 0;
+}
+.logo{
+	background-color: white;
+	height: 2rem;
+	color: white;
+}
+.siteName{
+	font-size: 2rem;
+	color: white;
+}
+.navDiv{
+	display: flex;
+	align-items: center;
+}
+.navList{
+	font-size: 1.3rem;
+	font-weight: bold;
+	color: white;
+}
+.navList:hover{
+	border: 0.1rem solid white;
+	padding: 1rem 2rem;
+}
+a{
+	text-decoration: none;
+}
+.freeConsultation{
+	background-color: #010dff;
+	font-size: 1.3rem;
+	font-weight: bold;
+	color: white;
+	padding: 1rem 2rem;
+}
+.freeConsultation:hover{
+	background-color: gray;
+}
+hr{
+	border: none;
+	border-top: 1px solid white;
+}
+.signUpSection{
+	padding: 5rem 3rem;
+	color: white;
+}
+.emailFirst{
+	background-color: black;
+	padding: 0.8rem;
+	color: gray;
+}
+.input #email{
+	flex: 2;
+}
+.submitButton{
+	background-color: #010dff;
+	color: white;
+}
+.input .submitButton{
+	flex: 1;
+}
+.input{
+	display: flex;
+	border: 0.1rem solid gray;
+	margin-top: 0.2rem;
+}
+.input > *{
+	
+}
+.signUpImage{
+	height: 50rem;
+}
+.whyUsSection{
+	background-color: white;
+	color: black;
+	padding: 3rem;
+}
+.whyUsHeader{
+	text-align: center;
+	font-family: Bogel;
+	font-size: xx-large;
+}
+.whyUsDiv{
+	border: 0.1rem solid black;
+	display: flex;
+	justify-content: space-between;
+}
+.whyUsLowerDiv, .whyUsUpperDiv{
+	text-align: center;
+}
+#verticalRule{
+	background-color: black;
+	height: 4rem;
+	width: 1px;
+}
+.ourServices{
+	text-align: center;
+}
+.serviceSubDiv{
+	border: 0.1rem solid black;
+	padding: 2rem;
+	text-align: center;
+	padding-top: 5rem;
+}
+.serviceSubDiv p{
+	font-weight: 400;
+	font-family: "WF Visual Sans", Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+.ourWorkSection{
+	padding: 3rem;
+}
+.someOfOurWork{
+	text-align: center;
+}
+.ourWorkDiv > *{
+	flex: 1;
+}
+.belowImageDiv{
+	background-color: #010dff; 
+	text-align: center;
+	margin-top: 0;
+	font-weight: bold;
+}
+.eachWorkDiv{
+	border: 0.1rem solid white;
+	margin-bottom: 2rem;
+	cursor: pointer;
+}
+.lastSection{
+	background-color: white;
+	color: black;
+	padding: 3rem;
+	
+}
+.siteNameSecond{
+	font-size: 2rem;
+	font-weight: bold;
+}
+.quickLinks div{
+	color: gray;
+	margin-bottom: 0.7rem;
+}
+.emailSecond{
+	padding: 0.8rem;
+}
+.forEmail{
+	font-weight: bold;
+}
+.lastButton{
+	background-color: #010dff;
+	color: white;
+	padding: 0.8rem;
+	box-sizing: border-box;
+}
+.emailDiv{
+	border: 0.1rem solid white;
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+
+
+
+
+
+
+@media (min-width: 501px){
+	nav{
+		background-color: black;
+		width: 100%;
+	    padding: 0.5rem 2rem;
+	}
+	.navMenu{
+	display: flex;
+	align-items: center;
+	list-style: none;
+	gap: 3rem;
+}
+	#hamburger{
+		display: none;
+	}
+	#toggleMenu{
+		display: none;
+	}
+	.signUpDiv{
+	    display: flex;
+	    align-items: center;
+	    flex-direction: row;
+	    gap: 5rem;
+}
+.signUpDiv h3{
+	font-family: cursive;
+}
+.buildBetter{
+	font-size: 4.5rem;
+}
+.signUpImage{
+	width: 50%;
+	height: 50rem;
+}
+.whyUsDiv{
+	padding: 3rem;
+}
+.whyUsLowerDiv{
+	font-size: xx-large;
+	text-align: center;
+}
+.whyUsUpperDiv{
+	text-align: center;
+}
+#verticalRule{
+	margin-right: 10rem;
+}
+.serviceDiv{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1.5rem;
+}
+.ourServices{
+	font-size: 4rem;
+}
+.someOfOurWork{
+	font-size: 4rem;
+	color: white;
+}
+.belowImageDiv{
+	font-size: 1.8rem;
+}
+.ourWorkDiv{
+	display: flex;
+	flex-direction: row;
+	gap: 2rem;
+}
+.eachWorkDiv{
+	padding: 1rem;
+}
+.ourWorkImage{
+	height: 23rem;
+	width: 100%;
+	margin-bottom: 0;
+}
+.belowImageDiv{
+	height: 7rem;
+	padding-top: 3rem;
+}
+.lastDiv{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 500px){
+	*{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    nav{
+    	z-index: 1000;
+        width: 100%;
+        background-color: blue;
+        padding: 0.5rem 1rem;   /* Reduce padding */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #toggleMenu{
+    	display: none;
+    }
+    #toggleMenu:checked ~ .navMenu{
+    	display: block;
+    }
+    .navMenu{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        list-style-type: none;
+        background-color: gold;
+        color: red;
+        z-index: 999;
+        display: none;
+    }
+    .navMenu a li{
+    	margin: 3rem 1.8rem;
+    }
+    #hamburger{
+        font-size: 2rem;
+        cursor: pointer;
+        display: block;
+        color: white;
+    }
+    .buildBetter{
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+.signUpImage{
+	width: 100%;
+	height: 40rem;
+	margin-top: 1.5rem;
+	border-radius: 0.3rem;
+}
+.whyUsDiv{
+	padding: 1.5rem 0.5rem;
+	height: 7.5rem;
+}
+.afterVRWhyUs{
+	margin-left: 3.5rem;
+}
+.whyUsLowerDiv{
+	font-weight: bold;
+	font-size: 1.2rem;
+	margin-top: 0.3rem;
+}
+.ourServices{
+	font-size: 2.5rem;
+	margin: 2rem 0 0.7rem;
+}
+.serviceSubDiv{
+	margin-bottom: 1rem;
+}
+.someOfOurWork{
+	font-size: 2.3rem;
+	margin-bottom: 0.7rem;
+	color: white;
+}
+.ourWorkDiv{
+	gap: 1rem;
+}
+.ourWorkImage{
+	height: 23rem;
+	width: 100%;
+	margin-bottom: 0;
+}
+.belowImageDiv{
+	height: 6rem;
+	padding-top: 2.2rem;
+	font-size: 1.4rem;
+}
+.lastDiv{
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+}
