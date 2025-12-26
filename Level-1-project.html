@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/storage/emulated/0/Download/bootstrap-5.3.7-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="Level-1-project.css">
+  
+  <link rel="stylesheet" href="./all.min.css">
+  
+  <title>Event Brite Site Clone</title>
+</head>
+<body>
+  <div class="nav-container">
+  <nav>
+  <div class="nav-parent-div">
+    <img src="./Download/event-brite-logo.png">
+    <div class="search-container search-container2">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input type="text" class="search-input" placeholder="Search...">
+      <ul class="dropdown"></ul>
+      <div class="search-bar-divider"></div>
+      <i class="fa-solid fa-location-dot"></i>
+      <input type="text" class="search-input2" placeholder="Search...">
+      <ul class="dropdown2"></ul>
+      <div class="search-icon-div"><i class="fa-solid fa-magnifying-glass"></i></div>
+    </div>
+    
+    <ul id="menu">
+      <li class=""><i class="fa-solid fa-pencil me-4"></i>Find Events</li>
+      <li><i class="fa-solid fa-calender"></i>Create Events</li>
+      <li>Organiser Resource Hub</li>
+      <li>Create Events</li>
+      <li>Contact Sales</li>
+      <li>Get Started</li>
+      <li><i class="fa-solid fa-circle-question me-4"></i>Help Center</li>
+    </ul>
+    <div>Find my tickets</div>
+    <div>Log In</div>
+    <div>Sign Up</div>
+    <div onclick="toggleMenu()"><i class="fa-solid fa-bars hambugger" ></i></div>
+  </div>
+    
+    <div class="search-container3">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input type="text" class="search-input3" placeholder="Search...">
+      <ul class="dropdown3"></ul>
+      <div class="search-icon-div2"><i class="fa-solid fa-magnifying-glass"></i></div>
+    </div>
+</nav>
+</div>
+  
+  <div class="carousel-container">
+    <div class="dots">
+      <span class="dot active"></span>
+      <span class="dot"></span>
+    </div>
+
+    <div class="carousel" id="carousel">
+      <img class="slide s1" src="./Download/fall-moment.webp">
+      <img class="slide s2" src="./Download/halloween_mobile.webp">
+    </div>
+  </div>
+  
+  <div class="outermost-icons-container">
+    
+    <div class="all-icons-div"> 
+      <div class="icons-div" id="fieldset">
+        <span>New</span>
+        <img src="./Pictures/Screenshots/event-img-1.jpg">     
+      </div>
+      <p>Halloween</p>
+    </div>
+    <div class="all-icons-div">
+      <div class="icons-div">
+        <img src="./Pictures/Screenshots/event-img-2.jpg">
+      </div>
+      <p>Music</p>
+    </div>
+    <div class="all-icons-div">
+      <div class="icons-div">
+        <img src="./Pictures/Screenshots/event-img-3.jpg">
+      </div>
+      <p>Nightlife</p>
+    </div>
+    <div class="all-icons-div">
+      <div class="icons-div">
+        <img src="./Pictures/Screenshots/event-img-4.jpg">
+      </div>
+      <p>Performing & Visual Arts</p>
+    </div>
+  
+    <!-- <div class="all-icons-container second-all-icons-container"> -->
+    <div class="all-icons-div">
+      <div class="icons-div">
+        <img src="./Pictures/Screenshots/event-img-5.jpg">
+      </div>
+      <p>Dating</p>
+    </div>
+    <div class="all-icons-div">
+      <div class="icons-div">
+        <img src="./Pictures/Screenshots/event-img-6.jpg">
+      </div>
+      <p>Hobbies</p>
+    </div>
+    <div class="all-icons-div">
+      <div class="icons-div">
+        <img src="./Pictures/Screenshots/event-img-7.jpg">
+      </div>
+      <p>Business</p>
+    </div>
+    <div class="all-icons-div">
+      <div class="icons-div">
+        <img src="./Pictures/Screenshots/event-img-8.jpg">
+      </div>
+      <p>Food & Drink</p>
+    </div>
+  </div>
+  
+  <div class="browsing-div">
+  <div class="browsing-event-div">
+    <span class="browsing-events">Browsing events in </span><span class="lagos fa-solid fa-chevron-down">Lagos</span>
+  </div>
+  <span class="all-events events">All</span><span class="events">Today</span><span class="events">This weekend</span>
+  </div>
+    
+  <h2 class="lagos-event">Events in Lagos</h2>
+  
+  <section class="event-section">
+    <div>
+      <img class="event-image" src="./Download/event1.jpeg">
+      <div class="event-child-1">Going fast</div>
+      <h3 class="event-child-2">CCIC Campmeeting 2025</h3>
+      <h4 class="event-child-3">Tue, Oct 21 • 9:00 AM</h4>
+      <div class="event-child-4">Christ Chapel International Churches</div>
+      <h4 class="event-child-5">Free</h4>
+    </div>
+    <div>
+      <img class="event-image" src="./Download/event2.jpeg">
+      <div class="event-child-1">Almost full</div>
+      <h3 class="event-child-2">Africa Data Privacy Roundtable</h3>
+      <h4 class="event-child-3">Monday • 12:00 PM</h4>
+      <p class="event-child-4">Four points by Sheraton, VI, Lagos</p>
+      <h4 class="event-child-5">From $33.85</h4>
+    </div>
+    <div>
+      <img class="event-image" src="./Download/event3.jpeg">
+      <h3 class="event-child-2" id="event-child-2">FirstCentral Global Credit Connect</h3>
+      <h4 class="event-child-3">Fri, Oct 17 • 10:00 AM</h4>
+      <p class="event-child-4">Lagos Oriental Hotel</p>
+      <h4 class="event-child-5">Free</h4>
+    </div>
+    <div>
+      <img class="event-image" src="./Download/event4.jpeg">
+      <div class="event-child-1">Going fast</div>
+      <h3 class="event-child-2">USA to Lagos Tour</h3>
+      <h4 class="event-child-3">Thu, Oct 16 • 3:00 PM</h4>
+      <p class="event-child-4">Decode lounge</p>
+      <h4 class="event-child-5">From $0.00</h4>
+    </div>
+    <div>
+      <img class="event-image" src="./Download/event5.jpeg">
+      <div class="event-child-1">Sales end soon</div>
+      <h3 class="event-child-2">Next Level Singles' Prayer Conference (Nigeria)</h3>
+      <h4 class="event-child-3">Today • 2:00 PM</h4>
+      <p class="event-child-4">Harvesters Globe</p>
+      <h4 class="event-child-5">Free</h4>
+    </div>
+    <div>
+      <img class="event-image" src="./Download/event6.jpeg">
+      <div class="event-child-1">Going fast</div>
+      <h3 class="event-child-2">Real Estate Discussions and Awards (REDA) 2025</h3>
+      <h4 class="event-child-3">Tue, Oct 21 • 10:00 AM</h4>
+      <p class="event-child-4">Radisson Blu Hotel, Lagos Ikeja</p>
+      <h4 class="event-child-5">Free</h4>
+    </div>
+    <div>
+      <img class="event-image" src="./Download/event7.jpeg">
+      <div class="event-child-1">Sales end soon</div>
+      <h3 class="event-child-2">6000 SEC: Culture in Motion</h3>
+      <h4 class="event-child-3">Saturday • 7:00 AM</h4>
+      <p class="event-child-4">Sport Centre Complex, University of Lagos</p>
+      <h4 class="event-child-5">Free</h4>
+    </div>
+    <div>
+      <img class="event-image" src="./Download/event8.jpeg">
+      <div class="event-child-1">Going fast</div>
+      <h3 class="event-child-2">Worship Room Lagos</h3>
+      <h4 class="event-child-3">Sat, Oct 25 • 12:00 PM</h4>
+      <p class="event-child-4">Freude's Place</p>
+      <h4 class="event-child-5">Free</h4>
+    </div>
+    <div>
+      <img class="event-image" src="./Download/event9.jpeg">
+      <div class="event-child-1">Going fast</div>
+      <h3 class="event-child-2">Lagos International Finance Expo 2028</h3>
+      <h4 class="event-child-3">Fri, Nov 17 • 8:30 AM</h4>
+      <p class="event-child-4">Landmark Centre</p>
+      <h4 class="event-child-5">From $10.00</h4>
+    </div>
+    <div>
+      <img class="event-image" src="./Download/event10.jpeg">
+      <h3 class="event-child-2" id="event-child-2">Occupational Safety and Health (OSH) as a Catalyst for Nation Building</h3>
+      <h4 class="event-child-3">Tuesday • 10:00 AM</h4>
+      <p class="event-child-4">Lagos Oriental Hotel</p>
+      <h4 class="event-child-5">Free</h4>
+    </div>
+    <div>
+      <img class="event-image" src="./Download/event11.jpeg">
+      <div class="event-child-1">Going fast</div>
+      <h3 class="event-child-2">YOUR VISION,OUR RECORD</h3>
+      <h4 class="event-child-3">Sat, Nov 1 • 8:00 AM</h4>
+      <p class="event-child-4">The Podium</p>
+      <h4 class="event-child-5">Free</h4>
+    </div>
+    <div>
+      <img class="event-image" src="./Download/event12.jpeg">
+      <div class="event-child-1">Almost full</div>
+      <h3 class="event-child-2">SEED Business School Festival 2025 - Lagos</h3>
+      <h4 class="event-child-3">Sun, Oct 19 • 12:30 PM</h4>
+      <p class="event-child-4">Lagos Marriott Hotel Ikeja</p>
+      <h4 class="event-child-5">Free</h4>
+    </div>
+    <div>
+      <img class="event-image" src="./Download/event13.jpeg">
+      <div class="event-child-1">Going fast</div>
+      <h3 class="event-child-2">Glitz Praise Party 9.0</h3>
+      <h4 class="event-child-3">Sunday • 1:00 PM</h4>
+      <p class="event-child-4">GLITZ Event Centre at lekki</p>
+      <h4 class="event-child-5">Free</h4>
+    </div>
+    <div>
+      <img class="event-image" src="./Download/event14.jpeg">
+      <h3 class="event-child-2" id="event-child-2">Technovatefest 2025</h3>
+      <h4 class="event-child-3">Thu, Nov 13 • 9:00 AM</h4>
+      <p class="event-child-4">NECA House Events Centre, Alausa</p>
+      <h4 class="event-child-5">Free</h4>
+    </div>
+    <div>
+      <img class="event-image" src="./Download/event15.jpeg">
+      <div class="event-child-1">Almost full</div>
+      <h3 class="event-child-2">Unite25: Communities Supporting Wellbeing in Crisis and Beyond</h3>
+      <h4 class="event-child-3">Fri, Oct 10 • 9:00 AM</h4>
+      <p class="event-child-4">Stella Hall</p>
+      <h4 class="event-child-5">Free</h4>
+    </div>
+    <div>
+      <img class="event-image" src="./Download/event16.jpeg">
+      <div class="event-child-1">Going fast</div>
+      <h3 class="event-child-2">JOBS AND AI: FINE-TUNING FOR TOMORROW</h3>
+      <h4 class="event-child-3">Sat, Oct 25 • 10:00 AM</h4>
+      <p class="event-child-4">Ahmadu Bello Way</p>
+      <h4 class="event-child-5">Free</h4>
+    </div>
+  </section>
+  <script>
+  function toggleMenu(){
+    document.getElementById("menu").classList.toggle("show");
+  }
+    const carousel = document.getElementById("carousel");
+    const dots = document.querySelectorAll(".dot");
+    let index = 0;
+    const slideCount = dots.length;
+
+    function updateDots(i) {
+      dots.forEach((dot, idx) => {
+        dot.classList.toggle("active", idx === i);
+      });
+    }
+
+    function autoScroll() {
+      index = (index + 1) % slideCount;
+      carousel.scrollTo({
+        left: index * carousel.clientWidth,
+        behavior: "smooth"
+      });
+      updateDots(index);
+    }
+
+    // auto scroll every 3 seconds
+    setInterval(autoScroll, 3000);
+
+    // sync dots when user scrolls manually
+    carousel.addEventListener("scroll", () => {
+      let i = Math.round(carousel.scrollLeft / carousel.clientWidth);
+      index = i;
+      updateDots(i);
+    });
+  </script>
+  <script src="Level-1-project.js"></script>
+</body>
+</html>
