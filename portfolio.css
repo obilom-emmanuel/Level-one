@@ -142,6 +142,7 @@ hr{
 	border: 0.1rem solid white;
 	margin-bottom: 2rem;
 	cursor: pointer;
+	color: white;
 }
 .lastSection{
 	background-color: white;
