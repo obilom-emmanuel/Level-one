@@ -9,7 +9,7 @@ body{
 	font-family: Arial, sans-serif;
 }
 nav{
-	background-color: blue;
+	background-color: #023274;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -48,11 +48,12 @@ a{
 	text-decoration: none;
 }
 .freeConsultation{
-	background-color: #010dff;
+	background-color: #023274;
 	font-size: 1.3rem;
 	font-weight: bold;
 	color: white;
 	padding: 1rem 2rem;
+	opacity: 0.5;
 }
 .freeConsultation:hover{
 	background-color: gray;
@@ -73,7 +74,6 @@ hr{
 label{
 	display: block;
 	font-weight: bold;
-	margin-bottom: 0.5rem;
 }
 .nameDiv{
 	display: flex;
@@ -82,22 +82,14 @@ label{
 .firstInputs{
 	padding: 0.6rem;
 }
-.formDiv{
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	margin-bottom: 3rem;
-}
-.formDiv > *{
-	flex: 1;
-}
+
 .messageDiv{
 	width: 100%;
 	box-sizing: border-box;
 	height: 10rem;
 }
 .formSubmitButton{
-	background-color: #010dff;
+	background-color: #023274;
 	color: white;
 	font-size: 1.5rem;
 	border: none;
@@ -124,7 +116,7 @@ label{
 	font-weight: bold;
 }
 .lastButton{
-	background-color: #010dff;
+	background-color: #023274;
 	color: white;
 	padding: 0.8rem;
 	margin: 0;
@@ -168,8 +160,20 @@ label{
 	font-size: 4.5rem;
 }
 	.formDiv{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 3rem;
+}
+.formDiv > *{
+	flex: 1;
+}
+	.formDiv{
 	gap: 6rem;
 }
+	label{
+		margin-bottom: 0.5rem;
+	}
 .formSubmitButton{
 	padding: 1rem;
 	width: 20%;
@@ -205,7 +209,6 @@ label{
     nav{
     	z-index: 1000;
         width: 100%;
-        background-color: blue;
         padding: 0.5rem 1rem;   /* Reduce padding */
         display: flex;
         justify-content: space-between;
@@ -227,7 +230,7 @@ label{
         left: 0;
         width: 100%;
         list-style-type: none;
-        background-color: gold;
+        background-color: dimgray;
         color: red;
         z-index: 999;
         display: none;
@@ -247,7 +250,7 @@ label{
 	gap: 1rem;
 }
 .firstInputs{
-	width: 11.4rem;
+	margin-bottom: 1.1rem;
 }
 .formSubmitButton{
 	padding: 0.5rem 0.7rem;
